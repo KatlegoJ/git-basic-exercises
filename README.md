@@ -1,1 +1,1 @@
-Hi, I like writing code.
+Hi, I like writing code. It is fun.
