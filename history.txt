@@ -1,0 +1,37 @@
+    1  mkdir git-basic exercises
+    2  cd git-basic-exercises
+    3  mkdir git-basic-exercises
+    4  cd git-basic-exercises
+    5  git init
+    6  touch README.md
+    7  git log
+    8  git add .
+    9  git commit -m "initial commit"
+   10  git config --global user.email "katlegojohnson11@gmail.com"
+   11  git config --global user.name "Katlego Johnson"
+   12  git status
+   13  git commit -m "initial commit"
+   14  nano README.md
+   15  cat README.md
+   16  git add .
+   17  git commit -m "second commit"
+   18  nano README.md
+   19  git add .
+   20  git commit -m "third commit"
+   21  git log
+   22  git checkout c73aa3ece85df9d60ec7812d537b6a8519625ef2
+   23  cat README.md
+   24  git checkout master
+   25  cat README.md
+   26  git branch milkshake-flavours
+   27  git branch
+   28  git checkout milkshake-flavours
+   29  nano milkshakes.md
+   30  git add .
+   31  git commit -m "added initial flavours"
+   32  git checkout master
+   33  git branch history
+   34  git checkout history
+   35  git branch
+   36  git log
+   37  history > history.txt
